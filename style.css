@@ -501,5 +501,9 @@
     justify-content: space-around;
     margin: 5px;
     width: 80%;
-
   }
+
+  .HeroBicons i {
+    width: 40px; /* Example: Sets width to 40 pixels */
+    height: 40px; /* Example: Sets height to 40 pixels */
+}
