@@ -472,10 +472,34 @@
     
   }
 
+
+
   .projects img{
     padding: 10px;
     max-width: 30%;
     min-width: 300px;
     max-height: 150px;
     margin: 10px;
+  }
+
+
+  .herobreak2{
+    background-color: #222222;
+    min-height:150px;
+    max-height:500px;
+    color: #c73659;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .HeroBicons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5px;
+    width: 80%;
+
   }
