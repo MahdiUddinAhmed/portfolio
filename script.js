@@ -23,6 +23,8 @@ hamburgerBtn.addEventListener('click', function() {
 });
 });
 
+
+
 // Function to set the active class based on current section
 function setActiveLink() {
 // Get the current section of the page
