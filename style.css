@@ -500,12 +500,25 @@ hr {
   width: 90%;
 }
 
-.HeroBicons i {
-  padding: 5px;
-  margin: 15px;
-  width: 40px; /* Example: Sets width to 40 pixels */
-  height: 40px; /* Example: Sets height to 40 pixels */
+
+.icon-tag{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
 }
+
+.icon-tag span{
+  margin: 2px;
+}
+
+
+.
+.HeroBicons i {
+  font-size: 2rem;
+  color: #EEEEEE;
+}
+
 
 @media (max-width: 600px) {
 
