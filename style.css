@@ -34,7 +34,7 @@ body{
   display: none; /* Initially hide the hamburger button on larger screens */
   background: none;
   border: none;
-  font-size: 24px;
+  font-size: .8rem;
   color: #EEEEEE;
   cursor: pointer;
   z-index: 101; /* Ensure it's above the navigation */
@@ -45,11 +45,12 @@ header nav {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 30px;
+  width: 100%;
 }
 
 header nav a {
   text-decoration: none;
-  font-size: 1rem;
+  font-size: .8rem;
   font-weight: 600;
   padding: 8px 16px;
   border-radius: 99px;
