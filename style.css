@@ -536,3 +536,75 @@ hr {
     flex-direction: column;
   }
 }
+
+
+.contactus{
+  background-color: #222222;
+  min-height:250px;
+  max-height:100px;
+  color: #c73659;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.contactusdiv{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+
+.contactuscontainer{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+
+.contact-icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.contact-icons a{
+  color: #EEEEEE;
+  margin: 5px;
+  text-decoration: none;
+  font-size: .8rem;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 99px;
+}
+
+
+.contact-icons a i{
+  color: #c73659;
+  font-size: 1.5rem;
+  margin: 5px;
+}
+
+
+.formcontainer form{
+  display: flex;
+  flex-direction: column;
+}
+
+.input1{
+    min-height: 2rem;
+    width: 30rem;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.input2{
+  width: 30rem;
+  min-height: 5rem;
+  margin: 10px;
+  border-radius: 20px;
+}
+.label{
+  font-size: 1rem;
+}
