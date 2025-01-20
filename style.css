@@ -254,46 +254,7 @@ height: auto; /* Maintain aspect ratio */
 
 
 
- @media (max-width: 600px) {
-  .Aboutme{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 0;
-  }
-
-  .leftEssay{      
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding-right: 0;
-  }
-
-
-    
-
-    .Aboutme h4{
-      margin-top: 50px;
-      margin-bottom: 50px;
-    } 
-    
-    
-.rightEssay{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding: 20px;
- }
-}
+ 
 
 
 
@@ -392,48 +353,50 @@ height: auto; /* Maintain aspect ratio */
   height: auto; /* Maintain aspect ratio */
   padding: 5px;
   width: 70%;
+  align-items: center;
+  justify-content: center;
   
 }
 
-.WorkandE{
-  margin-top: 20px;
-;
-  width: 100%; /* Set width to 100% */
-  height: auto; /* Maintain aspect ratio */
+
+.experienceInner{
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
 }
 
-.WorkandE  h2{
+.WorkandExpContainer{
+  display: flex;
+}
+.WorkandExpContainerInside{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.WorkandExpContainer h2{
   font-size: 1.2rem;
   color: #a91d3a;
   writing-mode: vertical-lr;
   text-orientation: upright;
 }
 
-.WorkandETable{
-  width: 100%;
-  margin-top: 20px;
+.WorkandExpContainerTable{
   display: flex;
-  flex-direction: row;
 }
 
-.WorkandETable table{
+.WorkandExpContainerTable p{
+  width: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: start;
   font-size: .9rem;
   color: #EEEEEE;
-  width: 100%;
+  padding:20px;
+
 }
 
-.WorkandETable th{
-  padding: 20px;
-}
-
-.WorkandETable i{
-  color: #C73659;
-}
 
 hr {
     width: 80%;
@@ -530,18 +493,12 @@ hr {
 }
 
 
-@media (max-width: 600px) {
 
-  .HeroBicons{
-    flex-direction: column;
-  }
-}
 
 
 .contactus{
   background-color: #222222;
-  min-height:250px;
-  max-height:100px;
+
   color: #c73659;
   align-items: center;
   display: flex;
@@ -551,14 +508,16 @@ hr {
 }
 .contactusdiv{
   display: flex;
-  flex-direction: row;
   width: 80%;
+  justify-content: space-around;
 }
 
 .contactuscontainer{
   display: flex;
-  width: 100%;
+  justify-content: center;
   flex-direction: column;
+  padding: 20px;
+  align-items: flex-end
 }
 
 
@@ -590,21 +549,104 @@ hr {
 .formcontainer form{
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .input1{
     min-height: 2rem;
-    width: 30rem;
+    width: 30em;
     margin: 10px;
     border-radius: 20px;
 }
 
 .input2{
-  width: 30rem;
+  width: 30em;
   min-height: 5rem;
   margin: 10px;
   border-radius: 20px;
 }
 .label{
   font-size: 1rem;
+}
+
+.letsChat{
+  padding: 20px;
+  width: 20em;
+}
+@media (max-width: 600px) {
+    .Aboutme{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding: 0;
+    }
+
+    .leftEssay{      
+      display: flex;
+      flex-direction: column;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding-right: 0;
+    }
+
+
+    
+
+    .Aboutme h4{
+      margin-top: 50px;
+      margin-bottom: 50px;
+    } 
+    
+    
+    .rightEssay{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      padding: 20px;
+    }
+
+    .HeroBicons{
+      flex-direction: column;
+    }
+
+    .WorkandExpContainerInside{
+      padding: auto;
+      width: 100%;
+    }
+    .WorkandExpContainerTable{
+      flex-direction: column;
+    }
+
+    .contactusdiv{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+    .contactuscontainer{
+      align-items: center
+    }
+    .input1{
+      min-height: 2rem;
+      width: 20em;
+      margin: 10px;
+      border-radius: 20px;
+    }
+    
+    .input2{
+      width: 20em;
+      min-height: 5rem;
+      margin: 10px;
+      border-radius: 20px;
+    }
+    
 }
